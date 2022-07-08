@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:#191919;
+}
+
+.en {
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#191919;
+
+}
+
+.ja {
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:40px;
+}
+
+.answer_btn{
+position: absolute;
+top:80%;
+left:50%;
+transform:translate(-50%,-50%);
+width:155px;
+height:50px;
+background:green;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:30px;
+border-top: 1px solid lightgreen;
+border-bottom: 1px solid lightgreen;
+color:#fff;
+box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.answer_btn:active{
+    position:absolute;
+    top: 81%;
+
+
+}
+
+.put_key {
+position:absolute;
+top:20%;
+left:50%;
+transform:translate(-50%,-50%);
+color:#fff;
+font-size:20px;
+background:#191919;
+border: none;
+}
+
+.next_word {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color:#fff;
+
+}
+
+.r_word{
+    position: absolute;
+    top:5%;
+    left:0%;
+    color:#fff;
+}
+
+.m_word{
+    position: absolute;
+    top:10%;
+    left:0%;
+    color:#fff;
+}
+
+
+
+
+
+
